@@ -1,0 +1,20 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-collapse">
+      <ul class="nav navbar-nav">
+        <!-- routerLinkActive permet de metre en surbrillance le lien sur lequel pointe l'url -->
+        <li routerLinkActive="active"><a routerLink="auth">Authentification</a></li>
+        <!-- routerLink permet de router les boutons  -->
+        <li routerLinkActive="active"><a routerLink="appareils">Appareils</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+     <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+
